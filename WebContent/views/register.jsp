@@ -92,7 +92,7 @@
 	
 </head>
 <body>
-   <h1>Regrat</h1>
+   <h1>Registration</h1>
     <div>
     	<c:if test="${success eq true}">
     		<b id="successMsg" style="color:red;">User info is stored successfully.!</b>
