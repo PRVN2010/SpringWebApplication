@@ -32,7 +32,7 @@ public class RegistrationController {
 		for(Entry<String, String> entry : map.entrySet()){
 			System.out.println(entry.getKey()+"  "+entry.getValue());
 		}
-		System.out.println("GET is executed.");
+		System.out.println("GE executed.");
 		//System.out.println(employee.getAddress().getAddress());
 		model.addAttribute("register", new UserModel());
 		return "register";
